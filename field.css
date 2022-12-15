@@ -1,0 +1,76 @@
+#teren {
+    width: 500px;
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+    background: center/cover url(terenteren.jpg);
+  }
+  td {
+    width: 90px;
+    height: 10px;
+    text-align: center;
+  }
+  button {
+    width: 85px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: red;
+    text-align: center;
+    align-self: center;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+nav button {
+  align: center;
+  background-color: blue;
+  color: azure;
+  font-size: 50%;
+  text-align: center;
+  text-decoration: none;
+}
+nav a {
+  text-decoration: none;
+}
+
+.specialbutton:hover {
+  background-color:blue;
+}
+
+.specialbutton:active {
+  background-color: white;
+  color: black;
+}

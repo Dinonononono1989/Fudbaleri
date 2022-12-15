@@ -1,0 +1,158 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: aquamarine;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    flex: 2 1;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+table th {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: aqua;
+    text-size-adjust: 80%;
+    border: 2px solid black;
+}
+table td {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    text-size-adjust: 60%;
+    background-color: hotpink;
+    border: 2px solid black;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+select option:hover {
+    background-color: red;
+}
+
+select option:active {
+    background-color: blue;
+}
+#tableofresults {
+    display: inline;
+}
+
+#positionstable {
+    display: inline;
+}
+
+a:hover {
+    color: green;
+}
+button {
+    width: 100px;
+}
+
+main button:hover {
+    background-color:blue;
+}
+
+main button:active {
+    background-color: white;
+    color: black;
+}
+
+#france:hover {
+    background: center/cover url(flagoffrance.jpg);
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+nav button {
+    align: center;
+    background-color: blue;
+    color: azure;
+}
+.specialbutton {
+    background-color: red;
+    color: white;
+}
+
+footer {
+    background-color: orange;
+    color: green;
+}
+
+.pp {
+    border: 2px;
+    border-radius: 10px 100px / 120px;
+}
+
+li {
+    list-style: none;
+}
+
+main div ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.side {
+    display: flex;
+    align-items: flex-start;
+    flex: 1 2;
+    position: static;
+}
+.side img {
+    max-width: 400px;
+    
+}
